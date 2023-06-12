@@ -28,7 +28,45 @@
     {
       "tag": "default",
       "patterns": ["", "I don't know", "Maybe"],
-      "responses": ["I'm sorry, but I didn't understand. Can you please rephrase or provide more details?"]
+      "responses": ["I'm sorry, but I didn't understand. Can you please rephrase or Contact our support?"]
+    },
+    {
+      "tag": "support",
+      "patterns": ["I need support", "Help me with a problem", "I have a technical issue"],
+      "responses": ["Of course! I'm here to help. Please provide more details about the issue you're facing.", "I'm sorry to hear that. Please describe the problem in more detail so that I can assist you better."]
+    },
+    {
+      "tag": "technical_issue",
+      "patterns": ["Software not working", "Error message", "Bug"],
+      "responses": ["I understand. Let's troubleshoot the issue. Have you tried restarting the software?", "I'm sorry for the inconvenience. Please provide any error messages you received so that I can assist you further."]
+    },
+    {
+      "tag": "restart_software",
+      "patterns": ["Yes, I restarted", "No, I haven't"],
+      "responses": ["Great! Let's move on to the next step.", "Alright. Please try restarting the software and let me know if the issue persists."]
+
+    },
+    {
+      "tag": "provide_error_message",
+      "patterns": ["The error message says", "Here is the error message"],
+      "responses": ["Thank you for providing the error message. Please give me a moment to analyze it.", "I appreciate the error message. Let me check our knowledge base for a solution."]
+    },
+    {
+      "tag": "account_related",
+      "patterns": ["Problem with my account", "Forgot password", "Account settings"],
+      "responses": ["I can help you with account-related issues. What specific problem are you facing?", "No worries. Let's sort out the account-related problem. Please provide more details."]
+    },
+    {
+      "tag": "forgot_password",
+      "patterns": ["I forgot my password", "Reset password"],
+      "responses": ["No problem. I can assist you with resetting your password. Do you have access to the email associated with your account?", "Alright. Let's start the password reset process. Can you confirm your email address?"]
+    },
+    {
+      "tag": "update_account_settings",
+      "patterns": ["Update account information", "Change email address", "Modify profile"],
+      "responses": ["Sure. To update your account settings, please provide the specific changes you'd like to make.", "I understand. Let's proceed with updating your account settings. What information needs to be changed?"]
     }
+
   ]
 }
+

@@ -45,7 +45,7 @@ async function getBotAnswers() {
       if (!found) {
         chatArea.innerHTML += `<p class="msg">${inputMessageS}</p>`;
         setTimeout(() => {
-          chatArea.innerHTML += `<p class="answer">I'm sorry, but I didn't understand that.</p>`;
+          chatArea.innerHTML += `<p class="answer">I'm sorry, but I didn't understand that or Contact our support.</p>`;
         }, Math.floor(Math.random() * 1000));
       }
     }
