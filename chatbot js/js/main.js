@@ -1,5 +1,3 @@
-
-
 let form = document.querySelector("form");
 let chatArea = document.querySelector("#chat-area");
 let inputMessage = document.querySelector("#message");
