@@ -26,11 +26,6 @@
       "responses": ["Of course! What do you need help with?"]
     },
     {
-      "tag": "default",
-      "patterns": ["", "I don't know", "Maybe"],
-      "responses": ["I'm sorry, but I didn't understand. Can you please rephrase or Contact our support?"]
-    },
-    {
       "tag": "support",
       "patterns": ["I need support", "Help me with a problem", "I have a technical issue"],
       "responses": ["Of course! I'm here to help. Please provide more details about the issue you're facing.", "I'm sorry to hear that. Please describe the problem in more detail so that I can assist you better."]
@@ -110,6 +105,11 @@
       "tag": "data",
       "patterns": ["What is data analysis?", "Tell me about analyzing data"],
       "responses": ["Data analysis is the process of inspecting, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making.", "Data analysts use statistical techniques, data visualization tools, and programming languages to analyze and interpret data."]
+    },
+    {
+      "tag": "default",
+      "patterns": ["", "I don't know", "Maybe"],
+      "responses": ["I'm sorry, but I didn't understand. Can you please rephrase or Contact our support?"]
     }
   ]
 }
